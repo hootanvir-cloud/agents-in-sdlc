@@ -20,22 +20,21 @@ lastUpdated: 2026-10-05
 チームは、増え続けるバックログに対応するために AI エージェントを導入しています。Copilot app では、Issue の選択、エージェントの実行、変更のレビュー、pull request のマージを一か所から指示できます。このレッスンでは、アプリをインストールして接続し、プロジェクトについての会話を始められるようにします。
 
 > [!NOTE]
-> 対象となる Copilot プランが必要です。Copilot Student またはいずれかの有料プラン (Pro、Pro+、Business、Enterprise) を利用してください。Copilot Business または Copilot Enterprise を使用している場合、アプリを動作させるには管理者が **Copilot CLI** ポリシーを有効にする必要があります。
+> 対象となる Copilot プランが必要です。Copilot Free、Copilot Student、またはいずれかの有料プラン (Pro、Pro+、Business、Enterprise) を利用できます。Copilot Business または Copilot Enterprise を使用している場合、管理者が **GitHub Copilot app** ポリシーを有効にする必要があります。
 
 ## GitHub Copilot app をインストールして構成する
 
-GitHub Copilot app を使用するには、まずアプリをインストールします。Windows、macOS、Linux 向けのバージョンが用意されています。アプリをインストールして認証し、Tailspin Toys リポジトリを追加します。
+GitHub Copilot app を使用するには、まずアプリをインストールします。Windows、macOS、Linux 向けのバージョンが用意されています。アプリをインストールして認証し、Tailspin Toys リポジトリをアプリに追加します。オンボーディング中に追加することも、完了後に追加することもできます。
 
 1. ブラウザーで [GitHub Copilot app のランディングページ][download-app]を開きます。
 2. 使用しているプラットフォーム向けのアプリをダウンロードし、ランディングページの手順に従ってインストールします。
 3. インストールが完了したら、アプリを開きます。
-4. **Sign in to GitHub** を選択し、画面の指示に従って認証します。GitHub Enterprise Server を使用している場合は **Use GitHub Enterprise** を選択し、求められたらサーバーアドレスを入力します。
-5. 認証後、リポジトリを接続するよう求められます。先ほど作成した `<YOUR_GITHUB_HANDLE>/tailspin-toys` という名前の Tailspin Toys リポジトリを選択します。
-6. **Continue** を選択してオンボーディングを続けます。
-7. テーマの選択を求められたら、最も好みのものを選び、**Finish** を選択します。
-
-> [!NOTE]
-> Tailspin Toys のコピーが一覧に自動的に表示されなかった場合は、アプリのオンボーディングを完了した後に追加できます。完了すると、Copilot app のホーム画面が表示されます。そこで **Choose from GitHub** を選択し、リポジトリ名 (\<YOUR_GITHUB_HANDLE\>/tailspin-toys) で検索して選択します。これでリポジトリが Copilot app に追加されます。
+4. **Sign in to GitHub** を選択し、画面の指示に従って認証します。GitHub Enterprise Cloud でデータ所在地を利用している場合は、**Use GitHub Enterprise** を選択し、求められたら `*.ghe.com` のホスト名を入力します。GitHub Enterprise Server はサポートされていません。
+5. オンボーディングでリポジトリを選択できる場合は、テンプレートから作成した Tailspin Toys リポジトリを選択します。リポジトリの選択はスキップして、オンボーディング後にプロジェクトを追加することもできます。
+6. テーマを選択するよう求められたら選択し、オンボーディングを完了します。
+7. サイドバーの **Sessions** の下にリポジトリが表示されているか確認します。すでに表示されている場合は、追加する必要はありません。
+8. まだ接続されていない場合は、**Sessions** の横にある **+** を選択して新しいセッションを作成し、**Add GitHub repository** を選択します。前提条件のレッスンで控えた所有者名とリポジトリ名を入力します。
+9. リポジトリがサイドバーに表示されることを確認します。このレイアウトでは、`tailspin-toys` などのリポジトリフォルダーが **Sessions** の下にグループ化され、その下に個々のセッションが表示されます。
 
 ## ワークスペースを確認する
 

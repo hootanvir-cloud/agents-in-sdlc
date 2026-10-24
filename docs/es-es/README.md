@@ -14,7 +14,7 @@ Comienza con una experiencia guiada y específica que presenta las capacidades p
 
 ### [Recorrido por la aplicación GitHub Copilot][first-steps-app]
 
-Crea un cuestionario sobre el espacio desde una carpeta vacía, publícalo en GitHub, implementa una incidencia, completa una revisión de Copilot, programa una automatización y explora un flujo de trabajo con Canvas.
+Crea Space Quiz desde una carpeta vacía, publícalo en GitHub, implementa una incidencia, completa una revisión de Copilot, programa una automatización y explora un flujo de trabajo con Canvas.
 
 ### [Primeros pasos con GitHub Copilot CLI][first-steps-cli]
 
@@ -30,7 +30,7 @@ Practica con GitHub Copilot en un ciclo de vida de desarrollo de software realis
 
 ### [Consulta los talleres de desarrollo en escenarios reales][real-world-development]
 
-Elige entre GitHub Copilot CLI, la aplicación GitHub Copilot, el agente de GitHub Copilot en la nube o Visual Studio Code.
+Elige entre GitHub Copilot CLI, la aplicación GitHub Copilot, el agente en la nube de GitHub Copilot o Visual Studio Code.
 
 > [!CAUTION]
 > GitHub Copilot es probabilístico y no determinista, por lo que el código exacto y los archivos modificados pueden variar respecto a los ejemplos. Es normal que haya pequeñas diferencias.
@@ -40,4 +40,4 @@ Elige entre GitHub Copilot CLI, la aplicación GitHub Copilot, el agente de GitH
 [first-steps-app]: first-steps/copilot-app/
 [first-steps-cli]: first-steps/copilot-cli/
 [first-steps-vscode]: first-steps/vscode/
-[real-world-development]: ../real-world-development/
+[real-world-development]: real-world-development/
